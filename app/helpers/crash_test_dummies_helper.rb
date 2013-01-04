@@ -1,0 +1,2 @@
+module CrashTestDummiesHelper
+end

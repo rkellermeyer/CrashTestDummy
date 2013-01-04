@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @crash_test_dummy.name %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%= @crash_test_dummy.weight %>
+</p>
+
+<p>
+  <b>Height:</b>
+  <%= @crash_test_dummy.height %>
+</p>
+
+<p>
+  <b>Test:</b>
+  <%= @crash_test_dummy.crash_test.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_crash_test_dummy_path(@crash_test_dummy) %> |
+<%= link_to 'Back', crash_test_dummies_path %>

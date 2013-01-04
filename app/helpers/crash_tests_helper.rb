@@ -1,0 +1,2 @@
+module CrashTestsHelper
+end

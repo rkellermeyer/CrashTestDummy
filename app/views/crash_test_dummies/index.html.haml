@@ -1,0 +1,5 @@
+%h1 Listing Crash Test Dummies
+- @crash_test_dummies.each do |crash_test_dummy|
+  = crash_test_dummy.name
+%br
+= link_to 'New Crash test dummy', new_crash_test_dummy_path
